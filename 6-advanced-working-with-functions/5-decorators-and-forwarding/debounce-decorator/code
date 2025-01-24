@@ -1,0 +1,16 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function debounce(func, ms) {
+    let timeout;
+    return function() {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, arguments), ms);
+    };
+  }
+
+</script>
+
+</html>

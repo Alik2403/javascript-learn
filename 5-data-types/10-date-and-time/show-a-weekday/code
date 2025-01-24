@@ -1,0 +1,14 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function getWeekDay(date) {
+    let days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
+  
+    return days[date.getDay()];
+  }
+
+</script>
+
+</html>

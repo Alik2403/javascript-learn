@@ -1,0 +1,16 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function delay(f, ms) {
+  
+    return function() {
+      setTimeout(() => f.apply(this, arguments), ms);
+    };
+  
+  };
+
+</script>
+
+</html>

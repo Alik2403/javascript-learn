@@ -1,0 +1,18 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function camelize(str) {
+    return str
+      .split('-') 
+      .map(
+
+        (word, index) => index == 0 ? word : word[0].toUpperCase() + word.slice(1)
+      )
+      .join(''); 
+  }
+
+</script>
+
+</html>

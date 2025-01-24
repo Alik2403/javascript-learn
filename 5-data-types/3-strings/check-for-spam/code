@@ -1,0 +1,14 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function checkSpam(str) {
+    let lowerStr = str.toLowerCase();
+  
+    return lowerStr.includes('viagra') || lowerStr.includes('xxx');
+  }
+
+</script>
+
+</html>

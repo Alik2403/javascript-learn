@@ -1,0 +1,12 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function extractCurrencyValue(str) {
+    return +str.slice(1);
+  }
+
+</script>
+
+</html>

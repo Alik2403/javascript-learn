@@ -1,0 +1,22 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function makeArmy() {
+  
+    let shooters = [];
+  
+    for(let i = 0; i < 10; i++) {
+      let shooter = function() { 
+        alert( i );
+      };
+      shooters.push(shooter);
+    }
+  
+    return shooters;
+  }
+
+</script>
+
+</html>

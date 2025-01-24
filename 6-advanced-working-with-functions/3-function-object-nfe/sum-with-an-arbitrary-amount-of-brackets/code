@@ -1,0 +1,24 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="test.js"></script>
+<script>
+
+  function sum(a) {
+  
+    let currentSum = a;
+  
+    function f(b) {
+      currentSum += b;
+      return f;
+    }
+  
+    f.toString = function() {
+      return currentSum;
+    };
+  
+    return f;
+  }
+
+</script>
+
+</html>
